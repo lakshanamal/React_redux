@@ -12,14 +12,14 @@ function App() {
       <h1>Hello {counter}</h1>
       <button
         onClick={() => {
-          dispatch(increment());
+          dispatch(increment(5));
         }}
       >
         +
       </button>
       <button
         onClick={() => {
-          dispatch(decrement());
+          dispatch(decrement(5));
         }}
       >
         -
